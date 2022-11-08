@@ -1,0 +1,37 @@
+HEADER    UNCLASSIFIED                            16-Jun-22
+TITLE     ALL ATOM STRUCTURE FOR MOLECULE UNK                                   
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2022-06-14 23:25:45
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1   OP BM17    0      -1.556  -1.010  -0.860  1.00  0.00           O
+HETATM    2   CS BM17    0      -1.430  -0.052  -0.044  1.00  0.00           C
+HETATM    3   OP BM17    0      -2.296   0.808   0.267  1.00  0.00           O
+HETATM    4   CP BM17    0      -0.051   0.100   0.665  1.00  0.00           C
+HETATM    5   HP BM17    0      -0.260   0.277   1.729  1.00  0.00           H
+HETATM    6   CY BM17    0       0.767   1.307   0.093  1.00  0.00           C
+HETATM    7   HB BM17    0       1.197   1.901   0.911  1.00  0.00           H
+HETATM    8   HB BM17    0       0.138   1.979  -0.499  1.00  0.00           H
+HETATM    9   CR BM17    0       1.894   0.647  -0.719  1.00  0.00           C
+HETATM   10   HY BM17    0       2.792   1.271  -0.798  1.00  0.00           H
+HETATM   11   HY BM17    0       1.553   0.416  -1.736  1.00  0.00           H
+HETATM   12   CB BM17    0       2.122  -0.659   0.062  1.00  0.00           C
+HETATM   13   HD BM17    0       2.624  -1.442  -0.518  1.00  0.00           H
+HETATM   14   HD BM17    0       2.746  -0.455   0.946  1.00  0.00           H
+HETATM   15   NT BM17    0       0.787  -1.111   0.496  1.00  0.00           N
+HETATM   16   HR BM17    0       0.332  -1.596  -0.283  1.00  0.00           H
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5    6   15
+CONECT    5    4
+CONECT    6    4    7    8    9
+CONECT    7    6
+CONECT    8    6
+CONECT    9    6   10   11   12
+CONECT   10    9
+CONECT   11    9
+CONECT   12    9   13   14   15
+CONECT   13   12
+CONECT   14   12
+CONECT   15    4   12   16
+CONECT   16   15
+END
